@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord</title>
+    <link rel="shortcut icon" href="images/discord_image.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav class="navbar">
+        <img src="images/navImage.png" alt="Discord_image">
+    </nav>
+
+    <!-- register section -->
+        <form>
+            <div class="header">
+                <h1>Create an account</h1>
+            </div>
+
+            <label for="email">EMAIL*</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="display">DISPLAY NAME*</label><br>
+            <input type="text" id="display" name="display" required><br><br>
+
+            <label for="username">USERNAME*</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <label for="password">PASSWORD*</label><br>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="date">DATE OF BIRTH*</label><br>
+            <select id="month" name="month">
+                <option value="" disabled selected>Month</option>
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+            </select>
+
+            <select name="day" id="day">
+                <option value="" disabled selected>Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <select name="year" id="year">
+                <option value="" disabled selected>Year</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+            </select>
+            <br>
+            <br>
+
+            <label class="checkbox-label">
+                <input type="checkbox" id="updates" name="updates">
+                (Optional) It's okay to send me emails with Discord updates, tips, and special offers. You can opt out
+                at any time.
+            </label>
+            <br>
+            <br>
+
+            <!-- <button type="submit">Continue</button> -->
+            <input type="submit" value="Continue" placeholder="Continue">
+            <br>
+            <div class="paragraph">
+                <p>By registering, you agree to Discord's <a href="Terms of Service.html" target="_blank">Terms of
+                        Service</a> and <a href="Privacy Policy.html" target="_blank">Privacy Policy</a></p>
+            </div>
+            <div class="already">
+                <a href="login.html" target="_blank">Already have an account?</a>
+            </div>
+    </form>
+</body>
+</html>
